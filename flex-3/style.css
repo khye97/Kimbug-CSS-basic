@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+  
+body {
+    font-family: "Muli", sans-serif;
+    color: #273444;
+    background-color: #eee;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: nowrap; */
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap;
+    justify-content: flex-start; */
+    align-items: center;
+    width: 386px;
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 32px 40px;
+}
+
+.card .profile-image {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.card .profile-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #273444;
+    line-height: 1.3333333333;
+    margin-bottom: 4px;
+}
+
+.card .profile-location {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8492A6;
+    line-height: 1.4285714286;
+    margin-bottom: 32px;
+}
+
+.card .profile-detail{
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: nowrap; */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.card .profile-detail .profile-detail-item {
+    text-align: center;
+}
+
+.card .profile-detail .profile-detail-item dt {
+    font-size: 12px;
+    color: #8492A6;
+    line-height: 1.6666666667;
+    margin-bottom: 4px;
+}
+
+.card .profile-detail .profile-detail-item dd {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.25;
+    color: #0066FF;
+}

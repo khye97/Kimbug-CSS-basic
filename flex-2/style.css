@@ -32,12 +32,17 @@ p {
 
 .card {
     display: flex;
+    /* flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start; */
     width: 530px;
     padding: 20px;
     background-color: #fff;
 }
 
 .card img {
+    display: block;
     width: 44px;
     height: 44px;
     border-radius: 50%;
